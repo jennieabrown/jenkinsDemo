@@ -8,7 +8,7 @@ stages {
       steps {
         echo "hello world"
         }
-       }
+    }
       steps{
         sh 'mvn clean compile'
       }
@@ -24,3 +24,4 @@ stages {
       sh 'mvn package'
       }
     }
+  }
